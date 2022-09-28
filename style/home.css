@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(250, 235, 215);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 8px;
+    display: flex;
+}
+
+.navbar-text{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 900px;
+}
+
+.card img{
+    height: 350px;
+    display: block;
+    margin: 0px auto;
+
+}
+
+.card{
+    padding: 50px;
+    align-items: center;
+    background-color: rgb(250, 235, 215);
+
+}
+
+.card h5{
+    margin-top: 30px;
+    text-align: center;;
+}

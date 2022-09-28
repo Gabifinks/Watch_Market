@@ -1,0 +1,38 @@
+.required:before {
+    content: "*";
+    color: red;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 8px;
+    display: flex;
+}
+
+.navbar-text{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 900px;
+}
+
+.container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: grid;;
+
+}
+
+.container-text{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-top: 30px;
+    color: black;
+}

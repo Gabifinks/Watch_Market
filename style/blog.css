@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 8px;
+    display: flex;
+}
+
+.navbar-text{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 900px;
+}
+
+.flex-container{
+    display: flex;
+    direction: row;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+}
+
+.scrollspy {
+    overflow: auto;
+    position: relative;
+    font-size: 20px; 
+    height: 365px;
+}
