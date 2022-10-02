@@ -1,6 +1,9 @@
 body{
-    background-color: rgb(250, 235, 215);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(250, 235, 215, 1);
+    opacity: 1;
+    background-image: radial-gradient( ellipse farthest-corner at 10px 10px , rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) 50%, rgba(250, 235, 215, 1) 50%);
+    background-size: 10px 10px;
 }
 .navbar {
     background-color: rgba(0, 0, 0, 0.2);
@@ -10,11 +13,26 @@ body{
     display: flex;
 }
 
+.logo {
+    width: 25px;
+    padding-right: 5px;
+}
+
 .navbar-text{
     display: flex;
     justify-content: flex-end;
     padding-left: 900px;
 }
+
+.carousel-slide{
+    margin: 20px;
+    border: outset rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item img{
+    height: 700px;
+}
+
 
 .card img{
     height: 350px;
@@ -26,11 +44,12 @@ body{
 .card{
     padding: 50px;
     align-items: center;
-    background-color: rgb(250, 235, 215);
-
+    border: none;
+    background-color: transparent;
 }
 
 .card h5{
     margin-top: 30px;
     text-align: center;;
 }
+

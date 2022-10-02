@@ -24,8 +24,9 @@
 </head>
 <body>
 
-    <!-- NAV -->
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <img src="../img/favicon.png" class="logo">
         <a class="navbar-brand" href="introduction.html">Watch Market</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -48,51 +49,51 @@
         </div>
       </nav>
 
+      <!-- BACKGROUND VIDEO -->
+    <video src="../img/logbackground.mp4" muted autoplay loop class = "bg-video"></video>
+    <div class="overlay"></div>
+
+
     <!-- TEXT REGISTER -->
     <div data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
-     <h1 class="container-text"> Please if you are a Gold Client register to have acess to exclusive information</h1></div>
+     <h1 class="container-text">Please if you are a Gold Client register to have acess to exclusive information</h1></div>
 
     <!-- FORMS -->
     <div class = "container">
     <form>
-        <div class="form-row">
+        <div class="row g-3">
           <div class="form-group col-md-6">
-            <label for="inputlogin4">Login</label>
             <input type="login" class="form-control" id="inputlogin4" placeholder="Login">
           </div></br>
           <div class="form-group col-md-6 required">
-            <label for="inputPassword4">Password</label>
             <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
           </div>
         </div></br>
         <div class="form-group">
-          <label for="inputAddress">Address</label>
           <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
         </div></br>
         <div class="form-group">
-          <label for="inputAddress2">Address 2</label>
           <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
         </div></br>
-        <div class="form-row">
+        <div class="row">
           <div class="form-group col-md-6">
-            <label for="inputCity">City</label>
-            <input type="text" class="form-control" id="inputCity">
+            <input type="text" class="form-control" id="inputCity" placeholder="City">
           </div></br>
           <div class="form-group col-md-4">
-            <label for="inputState">State</label>
             <select id="inputState" class="form-control">
-              <option selected>Choose...</option>
-              <option>...</option>
+              <option selected disabled>State...</option>
+              <option>SC</option>
+              <option>SP</option>
+              <option>RJ</option>
             </select>
           </div></br>
           <div class="form-group col-md-2">
-            <label for="inputemail">Email</label>
-            <input type="email" class="form-control" id="inputemail">
-          </div></br>
+            <input type="email" class="form-control" id="inputemail" placeholder="Email">
+          </div>
         </div>
-        <div class="form-group">
+        <div class="form-group"><br>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="gridCheck">
             <label class="form-check-label" for="gridCheck">
@@ -103,7 +104,7 @@
       </form>
 
     <!-- BUTTON -->
-        <a class="btn btn-outline-dark" href="home.html" role="button">Sing In</a>
+        <a class="btn btn-dark" href="home.html" role="button">Sing In</a>
     </div>
 
      <!-- FOOTER -->
@@ -136,9 +137,7 @@
         <!-- Section: Text -->
         <section class="mb-4">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-            eum harum corrupti dicta, aliquam sequi voluptate quas.
+            Looking for your future, begining in your past, a Watch that will remember the time of your life, a Watch Just for You.
           </p>
         </section>
     
