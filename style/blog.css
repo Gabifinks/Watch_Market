@@ -32,7 +32,6 @@ body{
     direction: row;
     padding-left: 40px;
     padding-right: 50px;
-    padding-bottom: 70px;
 }
 
 .scrollspy {
@@ -72,4 +71,5 @@ footer {
     bottom:0;
     left: 0%;
     right: 0%;
+    color: antiquewhite;
 }

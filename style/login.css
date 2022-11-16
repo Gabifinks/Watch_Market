@@ -1,7 +1,10 @@
 
 body{
-    background-color:rgba(0, 0, 0, 0.2);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(250, 235, 215, 1);
+    /* opacity: 1;
+    background-image: radial-gradient( ellipse farthest-corner at 10px 10px , rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) 50%, rgba(250, 235, 215, 1) 50%);
+    background-size: 10px 10px; */
 }
 
 .navbar {
@@ -75,5 +78,9 @@ form {
 
 .btn{
     background-color: rgba(0, 0, 0, 0.44);
+    color: antiquewhite;
+}
+
+footer {
     color: antiquewhite;
 }

@@ -10,8 +10,11 @@ body{
     color: antiquewhite;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 8px;
+    flex-wrap: nowrap;
     display: flex;
 }
+
+
 
 .logo {
     width: 25px;
@@ -53,3 +56,7 @@ body{
     text-align: center;;
 }
 
+
+footer{
+    color: antiquewhite;
+}
